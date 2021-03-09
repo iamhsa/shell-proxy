@@ -4,7 +4,6 @@
 __PROXY__="${0:A:h}/proxy.py"
 
 proxy() {
-  echo "Custom proxy command"
   source <("$__PROXY__" "$1")
 }
 
